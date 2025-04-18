@@ -1,8 +1,8 @@
 import java.util.*;
 
 // TC: O(1)
-// SC: O(n)
-// where n is the number of keys in the cache
+// SC: O(min(n, capacity))
+// where n is the number of keys in the cache and capacity is the maximum number of keys that can be stored in the cache
 
 public class LFUCache {
 
